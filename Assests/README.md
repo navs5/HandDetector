@@ -1,0 +1,1 @@
+This folder contains log files and weights saved as part of training
