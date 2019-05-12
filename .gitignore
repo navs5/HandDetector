@@ -2,4 +2,7 @@
 
 ./HandDetector
 ./HandDetector/*
+./.vscode
+./.vscode/*
 .vscode
+HandDetector
