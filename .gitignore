@@ -1,2 +1,5 @@
+#Files to ignore for Navjot
+
 ./HandDetector
 ./HandDetector/*
+.vscode
