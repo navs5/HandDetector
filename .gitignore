@@ -1,7 +1,8 @@
 #Files to ignore for Navjot
 
-./.vscode
+.vscode
 HandDetector
 images
-data
-*.record
+train.record
+test.record
+ssd_mobilenet_v1_coco_11_06_2017
