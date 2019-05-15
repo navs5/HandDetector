@@ -6,3 +6,4 @@ images
 train.record
 test.record
 ssd_mobilenet_v1_coco_11_06_2017
+__pycache__
