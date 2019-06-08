@@ -6,4 +6,10 @@ images
 train.record
 test.record
 ssd_mobilenet_v1_coco_11_06_2017
+ssd_mobilenet_v2_oid_v4_2018_12_12
+faster_rcnn_resnet101_coco_2018_01_28
+model
+fr_rcnn_r101_coco_cocoMetric/export
+defaultRun/events.*
+fr_eval_lr00003
 __pycache__
