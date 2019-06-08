@@ -12,6 +12,6 @@ model
 fr_rcnn_r101_coco_cocoMetric/export
 defaultRun/events.*
 fr_eval_lr00003
-__pycache_
-research
+__pycache__
+my_models
 
