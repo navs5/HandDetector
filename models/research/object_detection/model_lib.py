@@ -375,6 +375,14 @@ def create_model_fn(detection_model_fn, configs, hparams, use_tpu=False,
           include_patterns=include_variables,
           exclude_patterns=exclude_variables)
 
+      import numpy as np
+      model_size = np.sum([np.prod(v.get_shape().as_list())*v.dtype.size for v in tf.trainable_variables()])
+      print("Total num of trainable params: {}", model_size)
+
+
+      for this_var in trainable_variables: 
+          print(this_var)
+
       clip_gradients_value = None
       if train_config.gradient_clipping_by_norm > 0:
         clip_gradients_value = train_config.gradient_clipping_by_norm
